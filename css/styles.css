@@ -270,7 +270,7 @@ header h1{
 }
 
 .carousel-item--1 .carousel-item__image{
-  background-image: url("/images/soccerTwo.jpg");
+  background-image: url("https://rsmith1412.github.io/portfolio/images/soccerTwo.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
