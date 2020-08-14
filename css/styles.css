@@ -68,7 +68,7 @@ header {
   clear: both;
   font-size: 20px;
   text-align: center;
-  background-image: url("https://github.com/rsmith1412/portfolio/tree/master/images/izayah.jpg");
+  background-image: url("images/izayah.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -263,7 +263,7 @@ header h1{
 }
 
 .carousel-item--1 .carousel-item__image{
-  background-image: url('https://github.com/rsmith1412/portfolio/tree/master/images/soccerTwo.jpg');
+  background-image: url('images/soccerTwo.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -273,11 +273,11 @@ header h1{
 
 
 .carousel-item--2 .carousel-item__image{
-  background-image: url('https://github.com/rsmith1412/portfolio/tree/master/images/date.jpg');
+  background-image: url('images/date.jpg');
 }
 
 .carousel-item--3 .carousel-item__image{
-  background-image: url('https://github.com/rsmith1412/portfolio/tree/master/images/journal.jpg');
+  background-image: url('images/journal.jpg');
 }
 
 .carousel-item__btn {
