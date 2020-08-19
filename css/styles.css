@@ -123,7 +123,7 @@ header h1{
 #portfolio {
   height: 100vh;
   margin: 0 auto;
-  padding: 50px;
+  padding: 30px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -142,7 +142,7 @@ header h1{
 }
 
 .port_header {
-    width: 900px;
+    width: 80%;
     margin: 0 auto;
     padding: 10px;
     color: white;
@@ -151,14 +151,12 @@ header h1{
     border-bottom: 1px solid white;
 }
 .carousel {
-    margin: 40px auto;
-    width: 100%;
-    height: 100%;
+    margin: 30px auto;
+    width: 80%;
+    height: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 900px;
-    max-height: 550px;   
     overflow: hidden;
     position: relative;
 }
@@ -366,9 +364,6 @@ header h1{
 #leftSide {
   border-right: 1px solid #3A3E59;
 }
-#rightSide {
-  border-left: 1px solid white;
-}
 
 .auth-image {
   width: 200px;
@@ -410,7 +405,7 @@ footer a {
 .langs {
   display: flex;
   align-items: center;
-  height: 22%;
+  min-height: 22%;
   border-top: 1px solid #3A3E59;
 }
 .langs h4 {
@@ -426,7 +421,7 @@ footer a {
 }
 .icon {
   font-size: 30px;
-  max-width: 50px;
+  width: 50px;
 }
 .icon:hover {
   background-color: lightblue;
@@ -437,4 +432,102 @@ footer a {
 footer h5 {
     color: white;
     margin-right: 15px
+}
+
+/* MEDIA QUERIES */
+
+
+@media only screen and (max-width: 1024px){
+    #bigHeader {
+      font-size: 48px;
+    }
+    #portfolio {
+      padding: 40px;
+    }
+    .carousel {
+      margin: 30px auto 20px auto;
+    }
+    #myInfo {
+         display: block;
+    }
+    .box {
+         width: 100%;
+         margin: 0 auto;
+     }
+     #leftSide {
+         border-bottom: 1px solid #3A3E59;
+         border-right: none;
+    }
+     .langs {
+         padding: 10px;
+     }
+}
+
+@media only screen and (max-width: 785px){
+    #bigHeader {
+      font-size: 48px;
+    }
+    .hInner h2 {
+      font-size: 28px;
+    }
+    .port_header {
+      width: 100%;
+    }
+    .carousel {
+      width: 100%;
+    }
+    .carousel-item {
+      display: initial;
+    }
+    .carousel-item__title {
+      font-size: 36px;
+    }
+    .carousel-item__info {
+      width: 100%;
+      height: 50%;
+    }
+    .carousel-item__description {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .carousel-item__image {
+        width: 100%;
+        height: 50%;
+    }
+    #portfolio {
+      padding: 40px;
+    }
+    .carousel {
+      margin: 20px auto;
+    }
+    .box {
+      padding: 30px;
+    }
+}
+@media only screen and (max-width: 760px){
+    .langs h4 {
+      font-size: 16px;
+      min-height: none;
+      /*display: none;*/
+    }
+}
+@media only screen and (max-width: 426px){
+    #bigHeader {
+      font-size: 24px;
+    }
+    .hInner h2 {
+      font-size: 16px;
+    }
+    #portfolio {
+      padding: 40px;
+    }
+    .carousel {
+      margin: 30px auto 20px auto;
+    }
+    .carousel-item__title {
+        font-size: 24px;
+    }
+    .carousel-item__description {
+      display: none;
+    }
 }
