@@ -603,6 +603,10 @@ footer h5 {
     }
 }
 @media only screen and (max-width: 480px){
+    .hInner i {
+      margin-top: 30px;
+      font-size: 1em;
+    }
     #bigHeader {
       font-size: 28px;
     }
@@ -648,10 +652,6 @@ footer h5 {
 }
 
 @media only screen and (max-width: 325px){
-  .hInner i {
-    margin-top: 30px;
-    font-size: 1em;
-  }
   #portfolio {
     padding: 20px;
   }
