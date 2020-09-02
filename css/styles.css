@@ -426,7 +426,7 @@ footer .icon {
 .icons {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 5px;
+  /*margin-bottom: 5px;*/
 }
 .icon, .icon2, .iconify {
   background-color: white;
@@ -467,7 +467,28 @@ footer h5 {
   }
 }
 
-@media only screen and (max-width: 1080px){
+@media only screen and (min-width: 1131px) and (max-width: 1377px){
+  #manyIcons {
+    padding: 10px
+  }
+}
+@media only screen and (max-width: 1130px) {
+    #myInfo {
+         display: block;
+    }
+    .box {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #leftSide {
+        border-bottom: 1px solid #3A3E59;
+        border-right: none;
+    }
+    .langs {
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 1130px) and (orientation: portrait){
     #bigHeader {
       font-size: 48px;
     }
@@ -477,23 +498,32 @@ footer h5 {
     .carousel {
       margin: 30px auto 20px auto;
     }
-    #myInfo {
-         display: block;
-    }
-    .box {
-         width: 100%;
-         margin: 0 auto;
-     }
-     #leftSide {
-         border-bottom: 1px solid #3A3E59;
-         border-right: none;
-    }
-     .langs {
-         padding: 10px;
-     }
 }
-
-@media only screen and (max-width: 785px){
+@media only screen and (max-width: 1130px) and (orientation: landscape){
+    #bigHeader {
+      font-size: 36px;
+    }
+    .hInner h2 {
+      font-size: 20px;
+    }
+    #portfolio {
+        padding: 30px 40px;
+        height: 600px;
+    }
+    .carousel {
+      height: 70%;
+    }
+    .carousel-item__description {
+      display: none;
+    }
+    .desc_row {
+      margin-top: 30px;
+    }
+    #secondLink {
+      margin-left: 20px;
+    }
+}
+@media only screen and (max-width: 785px) and (orientation: portrait) {
     #bigHeader {
       font-size: 48px;
     }
@@ -534,6 +564,30 @@ footer h5 {
       padding: 30px 30px 20px 30px;
     }
 }
+@media only screen and (max-width: 785px) and (orientation: landscape) {
+    #bigHeader {
+      font-size: 36px;
+    }
+    .hInner h2 {
+      font-size: 20px;
+    }
+    #portfolio {
+        padding: 30px 40px;
+        height: 600px;
+    }
+    .carousel {
+      height: 70%;
+    }
+    .carousel-item__description {
+      display: none;
+    }
+    .desc_row {
+      margin-top: 30px;
+    }
+    #secondLink {
+      margin-left: 20px;
+    }
+}
 @media only screen and (max-width: 760px){
     .langs h4 {
       font-size: 16px;
@@ -552,6 +606,7 @@ footer h5 {
       padding: 40px;
     }
     .carousel {
+      height: 70%;
       margin: 30px auto 20px auto;
     }
     .carousel-item__title {
@@ -585,6 +640,21 @@ footer h5 {
 }
 
 @media only screen and (max-width: 325px){
+  .hInner i {
+    margin-top: 30px;
+    font-size: 1em;
+  }
+  #portfolio {
+    padding: 20px;
+  }
+  #portfolio i {
+    font-size: 1.5em;
+  }
+  .carousel-item__title {
+    /*padding: 0;*/
+    margin: 0;
+    font-size: 18px;
+  }
   .desc_row a {
     font-size: 8px;
   }
