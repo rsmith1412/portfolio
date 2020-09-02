@@ -571,12 +571,19 @@ footer h5 {
     .hInner h2 {
       font-size: 20px;
     }
+    .hInner i {
+      margin-top: 10px;
+      font-size: 1em;
+    }
     #portfolio {
-        padding: 30px 40px;
+        padding: 30px;
         height: 600px;
     }
     .carousel {
       height: 70%;
+    }
+    .carousel-item__title {
+      font-size: 36px;
     }
     .carousel-item__description {
       display: none;
@@ -585,7 +592,7 @@ footer h5 {
       margin-top: 30px;
     }
     #secondLink {
-      margin-left: 20px;
+      margin-left: 30px;
     }
 }
 @media only screen and (max-width: 760px){
@@ -610,7 +617,8 @@ footer h5 {
       margin: 30px auto 20px auto;
     }
     .carousel-item__title {
-        font-size: 24px;
+        font-size: 20px;
+        margin: 0;
     }
     .carousel-item__description {
       display: none;
@@ -651,7 +659,6 @@ footer h5 {
     font-size: 1.5em;
   }
   .carousel-item__title {
-    /*padding: 0;*/
     margin: 0;
     font-size: 18px;
   }
