@@ -266,11 +266,11 @@ header h1{
 
 
 .carousel-item--2 .carousel-item__image{
-  background-image: url('../images/date.jpg');
+  background-image: url('../images/journal.jpg');
 }
 
 .carousel-item--3 .carousel-item__image{
-  background-image: url('../images/journal.jpg');
+  background-image: url('../images/date.jpg');
 }
 
 .carousel-item__btn {
